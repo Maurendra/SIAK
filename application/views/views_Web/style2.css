@@ -1,0 +1,30 @@
+.header{
+  margin-bottom: 5em;
+  padding: 1em;
+  background-color: green;
+  background-image: url("<?php echo base_url('foto/header2.jpg');?>");
+  background-size: 88em 10em;
+  background-repeat: no-repeat;
+}
+.logo {
+  width : 6em;  height: 8em;
+}
+
+.margin{
+  margin: 1em 0 1em 0;
+}
+.mouseup:hover{
+  border: solid 1px #ddd;
+  background-color: #ddd;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+body{
+  background-image: url("<?php echo base_url('foto/background-awal.png');?>");
+}
+.background-white{
+  background-color: #fff;
+}
+.radius{
+  border-radius: 10px;
+}
